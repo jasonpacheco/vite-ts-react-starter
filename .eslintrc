@@ -20,10 +20,10 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended"
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "plugins": ["simple-import-sort", "prettier"],
   "rules": {
@@ -34,14 +34,6 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "simple-import-sort/imports": "off",
     "simple-import-sort/exports": "error",
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "components": ["Link"],
-        "specialLink": ["hrefLeft", "hrefRight"],
-        "aspects": ["invalidHref", "preferButton"]
-      }
-    ],
     "no-unused-vars": "warn"
   }
 }
