@@ -1,8 +1,12 @@
+import './reset.scss';
+
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
+import { StarterPage } from '~/pages/starter';
+
 const App = () => {
-  return <div>Vite React Start App</div>;
+  return <StarterPage />;
 };
 
 export const mountApp = () => {
