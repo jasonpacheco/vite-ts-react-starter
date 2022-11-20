@@ -1,6 +1,6 @@
 # vite-ts-react-starter
 
-A lightweight template to get a [React](https://reactjs.org/) [18](https://github.com/facebook/react/blob/main/CHANGELOG.md#1820-june-14-2022) SPA application powered by [Vite](https://vitejs.dev/) up-and-going. It comes ready with [TypeScript](https://www.typescriptlang.org/) and Sass for styling. There's also a minimal, but just opinionated-enough, ESLint and Prettier configuration for a well-linted React/TS project.
+A lightweight template to get a [React](https://reactjs.org/) [18](https://github.com/facebook/react/blob/main/CHANGELOG.md#1820-june-14-2022) SPA application powered by [Vite](https://vitejs.dev/) up-and-going. It comes ready with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/) for styling. There's also a minimal, but just opinionated-enough, ESLint and Prettier configuration for a well-linted React/TS project.
 
 ## Installation
 
