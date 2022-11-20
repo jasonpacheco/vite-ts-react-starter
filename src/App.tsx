@@ -1,20 +1,11 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
 
 import { StarterPage } from '~/pages/starter';
 
-const App = () => {
-  return <StarterPage />;
-};
-
-export const mountApp = () => {
-  const container = document.getElementById('root');
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  const root = createRoot(container!);
-
-  root.render(
+export const App = () => {
+  return (
     <StrictMode>
-      <App />
-    </StrictMode>,
+      <StarterPage />
+    </StrictMode>
   );
 };
