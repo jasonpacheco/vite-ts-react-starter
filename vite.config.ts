@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => {
       // This plugin is required if you need to inject a string
       // into a variable in index.html written as <%= VARIABLE_NAME %>
       createHtmlPlugin({
+        viteNext: true,
         minify: true,
         inject: {
           data: {
